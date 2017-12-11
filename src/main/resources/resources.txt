@@ -1,0 +1,52 @@
+=========================================================
+CATEGORIA ===============================================
+=========================================================
+STATUS  - GET  - api/v1/categoria/status
+LISTAR  - GET  - api/v1/categoria/
+DETALHE - GET  - api/v1/categoria/{idCategoria}
+INCLUIR - POST - api/v1/categoria/incluir
+			 {
+			      "nome": "Categoria persiste"
+			 }
+ALTERAR - POST - api/v1/categoria/alterar
+			 {
+			 	  "categoriaID" : "1",
+			      "nome": "Categoria persiste"
+			 }
+ EXCLUIR - GET  - api/v1/categoria/excluir/{categoriaID}		 
+ EXCLUIR - POST - api/v1/categoria/excluir
+			 {
+			 	  "categoriaID" : "1",
+			      "nome": "Categoria persiste"
+			 }
+PRODUTOS DA CATEGORIA - GET	- api/v1/categoria/produtos/{categoriaID}	 
+=========================================================			 
+PRODUTO =================================================
+=========================================================
+STATUS  - GET  - api/v1/produto/status
+LISTAR  - GET  - api/v1/produto/
+DETALHE - GET  - api/v1/produto/{produtoID}
+INCLUIR - POST - api/v1/produto/incluir
+			 {
+			      "nome": "Produto persiste",
+			      "descricao": "Descricao produto persiste",
+			      "categoria": 1
+			 }
+ALTERAR - POST - api/v1/produto/alterar
+			 {
+			 	  "produtoId" : "1",
+			      "nome": "Produto persiste",
+			      "descricao": "Descricao produto persiste",
+			      "categoria": 1
+			 }
+ EXCLUIR - GET  - api/v1/produto/excluir/{produtoID}	 
+ EXCLUIR - POST - api/v1/produto/excluir
+			 {
+			 	  "produtoId" : "1",
+			      "nome": "Produto persiste",
+			      "descricao": "Descricao produto persiste",
+			      "categoria": 1
+			 }
+=========================================================			 
+ATENDENTE ===============================================
+=========================================================			 
